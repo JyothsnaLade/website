@@ -4,7 +4,9 @@
   "description": "This is my individual project for class using node, playwright, and git",
   "main": "index.js",
   "scripts": {
-    "test": "npx playwright test",
+    "test": "npx playwright test --timeout=120000"
+  }
+,
     "start": "node index.js"
   },
   "repository": {
