@@ -1,0 +1,33 @@
+{
+  "name": "webdev1project",
+  "version": "1.0.0",
+  "description": "This is my individual project for class using node, playwright, and git",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaw393939/webdev1project.git"
+  },
+  "keywords": [
+    "example",
+    "student",
+    "project"
+  ],
+  "author": "Keith Williams",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kaw393939/webdev1project/issues"
+  },
+  "homepage": "https://github.com/kaw393939/webdev1project#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.38.1",
+    "@types/node": "^20.7.2"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "playwright": "^1.39.0"
+  }
+}
